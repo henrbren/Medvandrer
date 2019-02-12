@@ -1,0 +1,21 @@
+{
+  "name": "medvandrer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Medvandrer",
+  "repository" : "",
+  "license" : "UNLICENSED",
+  "framework7": {"type":["cordova"],"name":"Medvandrer","framework":"core","template":"tabs","bundler":"webpack","cssPreProcessor":false,"customColor":false,"pkg":"systems.vixon.medvandrer","platform":["ios","android"],"cwd":"/Users/henrikbrendhagen/Documents/Kunder/Medvandrer/Medvandrer"},
+  "scripts" : {"build-prod":"cross-env NODE_ENV=production node ./build/build.js","build-cordova-prod":"cross-env TARGET=cordova cross-env NODE_ENV=production node ./build/build.js && cd cordova && cordova build","dev":"cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.js","start":"npm run dev"},
+  "browserslist": [
+    "Android >= 5",
+    "IOS >= 9.3",
+    "Edge >= 15",
+    "Safari >= 9.1",
+    "Chrome >= 49",
+    "Firefox >= 31",
+    "Samsung >= 5"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
